@@ -1,0 +1,773 @@
+/* Poppins , Montserrat , Varela Round */
+
+/*  Default Stying  */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+i,
+u,
+ul,
+ol,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+/*  Default Styling Close  */
+
+/*  Header  */
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.logo span {
+  color: #fff9;
+  font-weight: 500;
+}
+.topHeader {
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+}
+.topHeader p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.topHeader ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.topHeader ul li:first-of-type {
+  margin-left: 0;
+}
+.topHeader ul li a {
+  color: #009688;
+}
+header {
+  background: #009688;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  box-shadow: 0 5px 5px #0028ff1f;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header nav ul li:first-of-type {
+  margin-left: 0;
+}
+header nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+header nav ul li a:hover {
+  color: #fff9;
+}
+/*  Header Close  */
+
+/*  Footer  */
+footer {
+  width: 100%;
+  padding: 70px 0;
+  background: #232b2a;
+}
+footer p {
+  color: #bfbfbf;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 27px 0 20px;
+}
+footer .social a {
+  margin-right: 15px;
+}
+footer .social a i {
+  background: #009688;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+footer h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+footer h4:after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  width: 50px;
+  height: 3px;
+  border-radius: 5px;
+  background: #009688;
+}
+footer h4:before {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  width: 150px;
+  height: 1px;
+  border-radius: 5px;
+  background: #fff3;
+}
+footer ul {
+  margin-top: 25px;
+}
+footer ul li {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+footer ul li a {
+  color: #bfbfbf;
+  transition: 0.5s;
+}
+footer ul li a:hover {
+  color: #fff;
+}
+footer form {
+  margin-top: 25px;
+}
+footer form input {
+  width: 100%;
+  padding: 7px 15px;
+  margin-bottom: 5px;
+  background: #fff;
+  color: #808080;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+footer form button {
+  color: #fff;
+  background: #009688;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.footerBottom {
+  width: 100%;
+  padding: 25px 0;
+  background: #1c2120;
+}
+.footerBottom p {
+  color: #bfbfbf;
+  font-size: 15px;
+  font-weight: 500;
+}
+.footerBottom p a {
+  color: #009688;
+}
+/*  Footer Close  */
+
+/*  Banner  */
+.banner {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background: url(../images/carousel/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.banner .text {
+  background: #009688a6;
+  padding: 30px 50px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.banner h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 5px 5px #0003;
+}
+.banner h4 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 20px;
+}
+.banner .button {
+  display: block;
+  margin-top: 50px;
+}
+.banner .button a {
+  color: #009688;
+  background: #fff;
+  padding: 15px 30px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+.banner .button a:hover {
+  color: #fff;
+  background: #009688;
+}
+.pageTitle {
+  width: 100%;
+  padding: 70px 0;
+  background: url(../images/carousel/page-title.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.pageTitle h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  background: #009688a6;
+  display: inline-block;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  text-shadow: 0 5px 5px #0003;
+}
+/*  Banner Close  */
+
+/*  Sign Page  */
+.signPage {
+  padding: 70px 0;
+  width: 100%;
+  background: #fbfdf9;
+}
+.signForm {
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 10px 1px #0002;
+  border-radius: 5px;
+}
+.signForm h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #009688;
+  text-shadow: 0 3px 3px #0003;
+}
+.signForm form {
+  margin-top: 30px;
+}
+.signForm form label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #808080;
+  text-transform: uppercase;
+}
+.signForm form input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  background: #fafafa;
+  color: #808080;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #00968866;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.signForm form input:focus {
+  box-shadow: 0 0px 7px 2px #0001;
+}
+.signForm form button {
+  color: #fff;
+  background: #009688;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.signForm form p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #808080;
+  margin-top: 20px;
+}
+.signForm form p a {
+  color: #009688;
+  font-weight: 700;
+}
+/*  Sign Page Close  */
+
+/*  Section  */
+.section-light {
+  background: #fbfdf9;
+  width: 100%;
+  padding: 70px 0;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #232b2a;
+  text-shadow: 0 3px 3px #0003;
+  margin-bottom: 25px;
+  font-family: "Varela Round";
+  text-transform: uppercase;
+}
+.section-paragraph {
+  font-size: 15px;
+  font-weight: 500;
+  color: #232b2a;
+}
+.section-image {
+  width: 100%;
+  overflow: hidden;
+}
+.section-image img {
+  width: 100%;
+}
+.section-nopadding {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.primary-background {
+  background: #009688;
+}
+
+.work-box {
+  width: 100%;
+  text-align: center;
+  padding: 70px 0;
+}
+.work-box .work-image {
+  width: 80px;
+}
+.work-box .work-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.course-box {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin: 15px 0;
+}
+.course-box .course-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  line-height: 150px;
+  text-align: center;
+  background: #009688;
+  margin: auto;
+}
+.course-box .course-image img {
+  width: 50%;
+}
+.course-box .course-text {
+  margin-top: 10px;
+}
+.course-box .course-text a {
+  color: #232b2a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.article-carousel .owl-nav {
+  margin-top: 30px;
+}
+.article-carousel .owl-nav button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px !important;
+  background: #009688 !important;
+  color: #fff !important;
+  border: none;
+  outline: none;
+}
+.article-carousel .owl-nav button span {
+  font-size: 25px;
+}
+.article-box {
+  width: 100%;
+}
+.article-box .article-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.article-box .article-image img {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+.article-box .article-image b {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 2;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.article-box .article-image b a {
+  background: #009688;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 50px;
+  margin: 0;
+}
+.article-box .article-text {
+  margin-top: 15px;
+}
+.article-box .article-text a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #232b2a;
+  text-transform: capitalize;
+}
+
+.testimonial-carousel {
+  padding: 70px 0;
+}
+.testimonial-carousel .owl-dots {
+  margin-top: 40px !important;
+}
+.testimonial-carousel .owl-dots .owl-dot {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  transition: 0.5s;
+}
+.testimonial-carousel .owl-dots .owl-dot:hover > span {
+  background: #fff;
+}
+.testimonial-carousel .owl-dots .owl-dot span {
+  background: #fff8;
+  width: 10px;
+  height: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.testimonial-carousel .owl-dots .owl-dot span:hover {
+  background: #fff;
+}
+.testimonial-carousel .owl-dots .active span {
+  background: #fff !important;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+}
+.testimonial-box {
+  width: 100%;
+  background: #fff2;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 5px 10px 0 #0002;
+}
+.testimonial-box .testimonial-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f9f9f9;
+  overflow: hidden;
+  margin: auto;
+}
+.testimonial-box .testimonial-image img {
+  width: 100%;
+}
+.testimonial-box .testimonial-text h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.testimonial-box .testimonial-text h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #232b2a;
+  text-transform: uppercase;
+}
+.testimonial-box .testimonial-content {
+  width: 100%;
+  margin: 15px 0;
+}
+.testimonial-box .testimonial-content p {
+  color: #232b2a;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.contact-form {
+  width: 100%;
+  margin-top: 25px;
+}
+.contact-form input {
+  width: 100%;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  background: #fff;
+  color: #808080;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #00968866;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px 0px #0002;
+}
+.contact-form textarea {
+  width: 100%;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  background: #fff;
+  color: #808080;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #00968866;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px 0px #0002;
+}
+.contact-form button {
+  color: #fff;
+  background: #009688;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+/*  Section Close  */
+/*  Profile Section  */
+.profile-sidebar {
+  width: 100%;
+}
+.profile-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.profile-image img {
+  width: 100%;
+}
+.profile-content {
+  width: 100%;
+  margin: 20px 0;
+}
+.profile-content h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #232b2a;
+}
+.profile-content h4 {
+  color: #009688;
+  font-size: 17px;
+  font-weight: 500;
+}
+.profile-nav {
+  width: 100%;
+}
+.profile-nav ul li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #232b2a;
+  margin-bottom: 10px;
+}
+.profile-nav ul li a {
+  color: #232b2a;
+}
+.profile-nav ul li i {
+  color: #fff;
+  background: #009688;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 15px;
+}
+.profile-section {
+  width: 100%;
+}
+.profile-section .buttons {
+  width: 100%;
+  margin: 10px 0 20px;
+}
+.profile-section .buttons a {
+  color: #fff;
+  background: #009688;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.profile-section .buttons a:hover {
+  box-shadow: 0 3px 10px 0 #0005;
+}
+.profile-box {
+  margin: 30px 0;
+}
+.profile-box .profile-section-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #232b2a;
+  text-shadow: 0 3px 3px #0003;
+  font-family: "Varela Round";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.profile-box p {
+  color: #232b2a;
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-box a {
+  margin-right: 10px;
+}
+.profile-box a i {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background: #009688;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 1px solid #009688;
+  transition: 0.5s;
+}
+.profile-box a i:hover {
+  background: #fff;
+  color: #009688;
+}
+
+.edit-profile {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+}
+.edit-profile input {
+  width: 100%;
+  background: #f5f5f5;
+  border: 2px solid #00968866;
+  outline: none;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+}
+.edit-profile textarea {
+  width: 100%;
+  background: #f5f5f5;
+  border: 2px solid #00968866;
+  outline: none;
+  padding: 15px 25px;
+  margin-bottom: 15px;
+  height: 150px;
+}
+.edit-profile button {
+  color: #fff;
+  background: #009688;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+/*  Profile Section Close  */
+
+/*  Quiz Form  */
+.quiz-form {
+  margin-top: 70px;
+}
+.quiz-form .col-md-12 {
+  width: 100%;
+  padding: 15px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.quiz-form .col-md-12:last-child {
+  padding: 0;
+  background: none;
+}
+.quiz-form h5 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.quiz-form .form-check {
+  margin-bottom: 5px;
+}
+.quiz-form .form-check:last-child {
+  margin-bottom: 0;
+}
+.quiz-form label {
+  margin-left: 10px;
+  display: inline-block;
+}
+.quiz-form button {
+  color: #fff;
+  background: #009688;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+/*  Quiz Form ~ Close  */
+
+/*  Responsive  */
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 767px) {
+}
